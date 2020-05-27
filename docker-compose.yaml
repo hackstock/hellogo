@@ -1,0 +1,6 @@
+version: '3'
+services:
+  hellogo:
+    build: .
+    ports: 
+      - "9000:9000"
